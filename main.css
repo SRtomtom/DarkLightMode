@@ -19,7 +19,8 @@ body {
   transition: background 0.2s linear; /*TEMPO DE TRANSIÇÃO dark/light*/
 }
 
-body.dark {
+/**modo dark sempre tem necessidade de acrescentar .dark para que funcione**/
+.dark {
   background: var(--dark-mode-color);
 }
 
